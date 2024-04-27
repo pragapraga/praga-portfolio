@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Young Serif", serif;
+}
+
+.container {
+    padding: 50px;
+}
+
+.section-one {
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.section-one__contact {
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    background-color: orange;
+}
+.section-one__name{
+    font-size: xx-large;
+}
+
+.section-one__role{
+    font-size: x-large ;
+}
+
+.section-two,.section-three,.section-four,.section-five{
+    margin-top: 20px;
+}
+
+.section_two__description,.section_three__interests,.section_four__projects{
+    margin-top: 20px;
+}
+
+.section-five{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-five__title a{
+    color: skyblue;
+}
+
+.section-three li, .section-four li{
+list-style: none;
+}
+
+.section-three{
+    background-color: #646262;
+    padding: 20px;
+    border-radius: 5px;
+    height: 200px;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.section-four{
+    padding: 20px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: burlywood;
+    display: inline-block;
+    vertical-align: top;
+    width:80%;
+}
+
+.contact-form{
+    margin-top: 20px;
+}
+
+.contact-form__name,.contact-form__email,.contact-form__msg{
+    margin-top: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+
+#btn{
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+border: none;
+}
